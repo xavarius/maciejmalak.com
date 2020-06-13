@@ -15,7 +15,7 @@ disqusShortname = "Maciej"
 
 [params]
     author = "Maciej Malak"
-    info = "Senior Engineer | AWS | Android | Technical Author"
+    info = "Software Engineer | AWS | Android | Technical Author"
     description = "This is my description lalalalallala"
     keywords = "blog,developer,personal"
     avatarurl = "images/maciej.jpg"
@@ -23,7 +23,7 @@ disqusShortname = "Maciej"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Enter a text here."
+    footercontent = "For all business inquiries please contact me at hellomonkeydevs@gmail.com"
 
     hidecredits = false
     hidecopyright = false
