@@ -16,47 +16,51 @@ disqusShortname = "Maciej"
 [params]
     author = "Maciej Malak"
     info = "Software Engineer | AWS | Android | Technical Author"
-    description = "This is my description lalalalallala"
+    description = "description"
     keywords = "blog,developer,personal"
     avatarurl = "images/maciej.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "For all business inquiries please contact me at hellomonkeydevs@gmail.com"
+    # footercontent = "For all business inquiries please contact me at hellomonkeydevs@gmail.com. I'm based in Wrocław, Poland."
 
     hidecredits = false
     hidecopyright = false
 
     rtl = false
 
-    math = true
-    custom_css = ["css/custom.css"]
+    # math = true
+    # custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]
+      name = "Medium.com"
+      icon = "fab fa-medium fa-2x"
+      weight = 1
+      url = "https://medium.com/@maciekmalak"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/maciejmalak/"
+[[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 1
+    weight = 3
     url = "https://github.com/xavarius/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
+    weight = 4
     url = "https://twitter.com/MonkeyDevsPl"
-[[params.social]]
-      name = "LinkedIn"
-      icon = "fab fa-linkedin fa-2x"
-      weight = 3
-      url = "https://twitter.com/MonkeyDevsPl"
-[[params.social]]
-      name = "Medium.com"
-      icon = "fab fa-medium fa-2x"
-      weight = 3
-      url = "https://twitter.com/MonkeyDevsPl"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
+    name = "What I do"
     weight = 1
-    url  = "/posts/"
+    url  = "https://www.linkedin.com/in/maciejmalak/"
+[[menu.main]]
+    name = "I'm writting about tech"
+    weight = 2
+    url  = "https://medium.com/@maciekmalak"
