@@ -1,0 +1,5 @@
+Maciej Malak personal site.
+
+Build with Hugo and AWS.
+
+![Build Status](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoibEgxeFZJZXgyVEM1TEhjLzNWaXhLOW84aXpRZzNGTkQzOTNVZ3B2aVZEQXBrL2VRcU9BYlNrMCtwbVBnSXJ1WjNsdlhzKzVwcWQ3UEFETEJvdFpwc3prPSIsIml2UGFyYW1ldGVyU3BlYyI6IldhN3E4Snd3TmFzWmZidXQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
