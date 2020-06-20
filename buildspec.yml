@@ -4,12 +4,13 @@ env:
   variables:
     s3_output: "maciejmalak.ml"
     hugo_version: "0.72.0"
+    hugo_package: "hugo_${hugo_version}_Linux-64bit.deb"
 
 phases:
   install:
     commands:
-      - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
-      - sudo dpkg -i "hugo_${hugo_version}_Linux-64bit.deb"
+      - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/${hugo_package}"
+      - sudo dpkg -i $hugo_package
     finally:
       - hugo version
   build:
