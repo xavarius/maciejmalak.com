@@ -9,7 +9,6 @@ env:
 phases:
   install:
     commands:
-      # - apt-get update && apt-get install sudo -y
       - wget "https://github.com/gohugoio/hugo/releases/download/v0.72.0/hugo_0.72.0_Linux-64bit.deb"
       - dpkg -i hugo_0.72.0_Linux-64bit.deb
     finally:
@@ -17,6 +16,6 @@ phases:
   build:
     commands:
       - hugo
-      # - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
+      - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
     finally:
       - echo "Script finished running"
