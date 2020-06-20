@@ -19,16 +19,16 @@ googleAnalytics = "UA-169797222-1"
     author = "Maciej Malak"
     info = "Software Engineer | AWS | Android | Technical Author"
     description = "description"
-    keywords = "blog,developer,personal"
+    keywords = "blog,developer,personal,software engineer,monkeydevs,poland,programming,blog,tutorials,blog posts"
     avatarurl = "images/maciej.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    # footercontent = "For all business inquiries please contact me at hellomonkeydevs@gmail.com. I'm based in Wrocław, Poland."
-
-    hidecredits = false
-    hidecopyright = false
+    footercontent = "For all business inquiries please contact me at hellomonkeydevs@gmail.com. I'm based in Wrocław, Poland."
+    hideFooter = true
+    hideCredits = true
+    hideCopyright = true
 
     rtl = false
 
