@@ -9,7 +9,7 @@ env:
 phases:
   install:
     commands:
-      - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/${hugo_package}"
+      - wget "https://github.com/gohugoio/hugo/releases/download/v/${hugo_version}//${hugo_package}"
       - sudo dpkg -i $hugo_package
     finally:
       - hugo version
