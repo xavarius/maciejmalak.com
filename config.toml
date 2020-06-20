@@ -32,8 +32,13 @@ googleAnalytics = "UA-169797222-1"
 
     rtl = false
 
-    # math = true
-    # custom_css = ["css/custom.css"]
+     colorscheme = "light"
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Enable Twemoji
+    enableTwemoji = true
 
 # Social links
 [[params.social]]
