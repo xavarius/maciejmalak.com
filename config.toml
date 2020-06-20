@@ -13,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "Maciej"
 
+googleAnalytics = "UA-169797222-1"
+
 [params]
     author = "Maciej Malak"
     info = "Software Engineer | AWS | Android | Technical Author"
